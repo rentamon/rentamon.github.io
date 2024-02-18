@@ -17,8 +17,21 @@ body {
 }
 
 
+header {
+    position: relative; /* Position relative to allow z-index */
+    z-index: 2; /* Ensure the header appears above the background image */
+    padding: 20px; /* Add padding for better readability */
+}
+
 h1 {
-    color: #333;
+    font-size: 36px; /* Adjust header font size */
+    text-align: center; /* Center align header text */
+}
+
+main {
+    position: relative; /* Position relative to allow z-index */
+    z-index: 1; /* Ensure main content appears below the header */
+    padding: 20px; /* Add padding to separate main content from header */
 }
 
 p {
