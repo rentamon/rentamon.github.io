@@ -14,6 +14,10 @@ body {
     background-repeat: no-repeat; /* Do not repeat the background image */
     /* Optionally, you can add more styles to the body or other elements */
     color: white; /* Example: Set text color to white */
+    display: flex; /* Use flexbox for centering */
+    justify-content: center; /* Center content horizontally */
+    align-items: center; /* Center content vertically */
+    min-height: 100vh; /* Ensure the body takes up the full height of the viewport */
 }
 
 
@@ -21,6 +25,7 @@ header {
     position: relative; /* Position relative to allow z-index */
     z-index: 2; /* Ensure the header appears above the background image */
     padding: 20px; /* Add padding for better readability */
+    text-align: center; /* Center-align header text */
 }
 
 h1 {
@@ -32,7 +37,9 @@ main {
     position: relative; /* Position relative to allow z-index */
     z-index: 1; /* Ensure main content appears below the header */
     padding: 20px; /* Add padding to separate main content from header */
+    text-align: center; /* Center-align main content */
 }
+
 
 p {
     color: #666;
