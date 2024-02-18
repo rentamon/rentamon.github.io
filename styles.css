@@ -1,0 +1,29 @@
+/* styles.css */
+
+/* Reset default browser styles */
+body, h1, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Apply styles to HTML elements */
+body {
+    background-image: url('images/first-image.jpg'); /* Replace 'cropped-image.jpg' with your image filename */
+    background-size: cover; /* Cover the entire background */
+    background-position: center; /* Center the background image */
+    background-repeat: no-repeat; /* Do not repeat the background image */
+    /* Optionally, you can add more styles to the body or other elements */
+    color: white; /* Example: Set text color to white */
+}
+
+
+h1 {
+    color: #333;
+}
+
+p {
+    color: #666;
+    line-height: 1.5;
+}
+
+/* Add more styles as needed */
