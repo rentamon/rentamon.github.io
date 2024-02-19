@@ -17,7 +17,6 @@ body {
     justify-content: center; /* Center content horizontally */
     align-items: center; /* Center content vertically */
     min-height: 100vh; /* Ensure the body takes up the full height of the viewport */
-    z-index: 1;
 }
 
 
